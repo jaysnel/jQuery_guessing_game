@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Random Number Game</title>
+
+	<link rel="stylesheet" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<h1>The Guessing Game!</h1>
+	<h3>Guess the correct number between 1 and 10 and you win!</h3>
+
+	<input class="user_guess" placeholder="Guess Goes Here">
+	<button class="check_button">Check My Answer</button>
+	<button class="clear_button">Clear Game</button>
+	<div class="tries_section">
+	<p class="">Number of tries: </p>
+	<p class="number_of_tries">0</p>
+	</div>
+
+	<div id="true">
+		Correct! Great Guess!
+	</div>
+
+	<div id="false">
+		Sorry, Wrong Number.
+	</div>
+
+	<div id="wrong_guess_1">
+		Guess is too high. Try again.
+	</div>
+	
+	<div id="wrong_guess_2">
+		Guess is too low. Try again.
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
