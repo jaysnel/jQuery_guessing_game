@@ -25,6 +25,7 @@ $(document).ready(function() {
 	})
 	
 	$(".clear_button").click( () => {
+		x = 0;
 		$("input").val('');
 		$("#true, #false").hide();
 		$(".number_of_tries").text(0);
