@@ -3,7 +3,7 @@ var _high = "Guess is too high";
 var _low = "Guess is too low";
 var final_number = Math.floor((Math.random() * 10) + 1);
 
-//Don't Cheat
+//dont cheat
 console.log(final_number);
 
 
@@ -25,12 +25,12 @@ $(document).ready(function() {
 	})
 	
 	$(".clear_button").click( () => {
-		x = 0;
+    x = 0;
 		$("input").val('');
 		$("#true, #false").hide();
 		$(".number_of_tries").text(0);
 	  })
-})
+    })
 
 function checkGuess() {
 	if($("input").val() > final_number) {
