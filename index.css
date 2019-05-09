@@ -1,11 +1,6 @@
 body {
-    background-image: url() !important;
+    background: linear-gradient(to bottom, #ff8000, #333);
+    height: 100vh;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-}
-
-h1 {
-  background: -webkit-linear-gradient(#ff8000 10%, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
